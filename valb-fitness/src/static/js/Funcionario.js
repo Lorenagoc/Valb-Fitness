@@ -1,3 +1,4 @@
+// export class Funcionario
 module.exports = class Funcionario {
     constructor(id, senha, nomeCompleto) {
         this.id = id;
