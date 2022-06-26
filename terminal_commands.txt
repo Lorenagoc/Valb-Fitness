@@ -1,16 +1,10 @@
-!!!run all commands inside valb-fitness folder!!!
+!!!run all commands inside valb-fitness backend folder!!!
 
-To create a new react application
-	$npx create-react-app valb-fitness
-
-To start react server on localhost::3000
-	$npm start
-	
-To start json server on localhost::8000
-	$npx json-server --watch data/db.json --port 8000
-
-To install react-router-dom version 5 on project
-	$npm install react-router-dom@5
-	
 To install all node_modules
 	$npm install
+
+To run the server
+	$mongod
+	
+Using another tab from terminal
+	$npm run production
