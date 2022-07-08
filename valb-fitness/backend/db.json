@@ -1,0 +1,115 @@
+{
+	"Funcionarios": [
+		{
+			"Secretariado": [
+				{
+					"id": 1,
+					"senha": "sec123",
+					"nomeCompleto": "Ana da Silva"
+				},
+				{
+					"id": 2,
+					"senha": "sec123",
+					"nomeCompleto": "Bernardo dos Santos"
+				}
+			]
+		},
+
+		{
+			"Medicos": [
+				{
+					"id": 3,
+					"senha": "med123",
+					"nomeCompleto": "Carlos Petterson",
+					"crm": 333222111
+				},
+				{
+					"id": 4,
+					"senha": "med123",
+					"nomeCompleto": "Daniela Chaves",
+					"crm": 111222333
+				}
+			]
+		},
+		{
+			"Professores": [
+				{
+					"id": 5,
+					"senha": "pro123",
+					"nomeCompleto": "Evandro Xavier",
+					"cref": 100100100
+				},
+				{
+					"id": 6,
+					"senha": "pro123",
+					"nomeCompleto": "Fabiola Musculos",
+					"cref": 200200200
+				}
+			]
+		}
+	],
+
+	"Clientes": [
+		{
+			"nomeCompleto": "Giovanna Marvilla",
+			"cpf": 120120000,
+			"dataNascimento": "07/07/1987",
+			"identidade": 369258147,
+			"id": 1,
+			"senha": "cli123",
+			"objetivo": "Hipertrofia",
+			"aptoFisicamente": true,
+			"AvaliacaoFisica": {
+				"descricao": "Avaliação física da Giovanna",
+				"avaliador": "Evandro Xavier",
+				"paciente": "Giovanna Marvilla",
+				"data": "08/07/2022",
+				"peso": 60.5,
+				"altura": 1.75,
+				"pressaoArterial": null,
+				"percentualGordura": null,
+				"percentualMassa": null,
+				"imc": null
+			},
+			"Treino": {
+				"codigo": "A",
+				"aluno": "Giovanna Marvilla",
+				"treinador": "Fabiola Musculos",
+				"dia": "A",
+				"Exercicios": [
+					{
+						"descricao": "Legpress-45",
+						"repeticoes": "4x12",
+						"musculosEnvolvidos": "Glúteos, quadríceps, posterior da coxa."
+					},
+					{
+						"descricao": "Remada alta",
+						"repeticoes": "3x12",
+						"musculosEnvolvidos": "Trapézio, deltoides."
+					}
+				]
+			},
+			"Cartao": {
+				"num": 55555522,
+				"bandeira": "MasterCard",
+				"nomeTitular": "Giovanna Marvilla"
+			},
+			"Modalidade": [
+				{
+					"descricao": "Musculação",
+					"Turma": {
+						"codigo": 1,
+						"horario": "Mus12T34",
+						"capacidadeMax": 20
+					},
+					"Plano": {
+						"tipo": "A",
+						"freqSemanal": 2,
+						"parcelas": 4,
+						"preco": 120.5
+					}
+				}
+			]
+		}
+	]
+}
