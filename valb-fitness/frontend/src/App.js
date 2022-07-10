@@ -1,5 +1,16 @@
 //3rd part imports
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import  Navbar from './Navbar';
+import  Home from './Home';
+//import Footer from './Footer';
+// import  SelecaoLogin from './SelecaoLogin';
+// import  Login from './Login';
+// import  Cadastro from './Cadastro';
+// import  Secretaria from './Secretaria';
+// import  Professor from './Professor';
+// import  Medico from './Medico';
+// import  Aluno from './Aluno';
+
 
 //components imports
 
@@ -9,10 +20,8 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/">
-            <h2>Navbar</h2>
-            <h2>Home</h2>
-            {/* <Navbar /> */}
-            {/* <Home /> */}
+            <Navbar/>
+            <Home/>
           </Route>
           <Route path="/login">
             <h2>login</h2>
