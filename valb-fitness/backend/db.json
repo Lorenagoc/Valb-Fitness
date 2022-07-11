@@ -103,10 +103,78 @@
 						"capacidadeMax": 20
 					},
 					"Plano": {
-						"tipo": "A",
-						"freqSemanal": 2,
-						"parcelas": 4,
-						"preco": 120.5
+						"tipo": "Anual",
+						"frequencia": 7,
+						"parcelas": 12,
+						"preco": 106.25
+					}
+				}
+			]
+		}
+	],
+	"Planos": [
+		{
+			"Natacao": [
+				{
+					"mensal": {
+						"parcelas": 0,
+						"frequencia": [{ "2x": 215 }, { "3x": 229 }]
+					}
+				},
+				{
+					"semestral": {
+						"parcelas": 6,
+						"frequencia": [{ "2x": 215 }, { "3x": 229 }]
+					}
+				},
+				{
+					"anual": {
+						"parcelas": 12,
+						"frequencia": [{ "2x": 182.75 }, { "3x": 189 }]
+					}
+				}
+			]
+		},
+		{
+			"Musculacao": [
+				{
+					"mensal": {
+						"parcelas": 0,
+						"frequencia": { "7x": 125 }
+					}
+				},
+				{
+					"semestral": {
+						"parcelas": 6,
+						"frequencia": { "7x": 112.5 }
+					}
+				},
+				{
+					"anual": {
+						"parcelas": 12,
+						"frequencia": { "7x": 106.25 }
+					}
+				}
+			]
+		},
+		{
+			"Spinning-Crossfit-Ritmos": [
+				{
+					"mensal": {
+						"parcelas": 0,
+						"frequencia": { "3x": 155 }
+					}
+				},
+				{
+					"semestral": {
+						"parcelas": 6,
+						"frequencia": { "3x": 139 }
+					}
+				},
+				{
+					"anual": {
+						"parcelas": 12,
+						"frequencia": { "3x": 130 }
 					}
 				}
 			]
