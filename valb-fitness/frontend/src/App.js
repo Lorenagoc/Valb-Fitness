@@ -3,13 +3,17 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import  Navbar from './Navbar';
 import  Home from './Home';
 //import Footer from './Footer';
-// import  SelecaoLogin from './SelecaoLogin';
-// import  Login from './Login';
-// import  Cadastro from './Cadastro';
-// import  Secretaria from './Secretaria';
-// import  Professor from './Professor';
-// import  Medico from './Medico';
-// import  Aluno from './Aluno';
+import  Team from './Team';
+import StaffTeam from './StaffTeam';
+// import  UserLogIn from './UserLogIn';
+// import  ManagerLogIn from './ManagerLogIn';
+// import  CoachLogIn from './CoachLogIn';
+// import  DoctorLogIn './DoctorLogIn';
+// import  UserSignUp from './UserSignUp';
+// import  ManagerSignUp from './ManagerSignUp';
+// import  CoachSignUp from './CoachSignUp';
+// import  DoctorSignUp from './DoctorSignUp';
+// import  Workout from './Workout';
 
 
 //components imports
@@ -23,9 +27,23 @@ function App() {
             <Navbar/>
             <Home/>
           </Route>
-          <Route path="/login">
-            <h2>login</h2>
-            {/* <Login /> */}
+          <Route path="/Team">
+            <Team />
+          </Route>
+          <Route path="/StaffTeam">
+            <StaffTeam />
+          </Route>
+          <Route path="/UserLogIn">
+            <h2>Log in de Aluno</h2>
+          </Route>
+          <Route path="/ManagerLogIn">
+            <h2>Log in da secretaria</h2>
+          </Route>
+          <Route path="/CoachLogIn">
+            <h2>Log in do treinador</h2>
+          </Route>
+          <Route path="/DoctorLogIn">
+            <h2>Log in do médico</h2>
           </Route>
           <Route path="/workout/:id">
             <h2>workout #id</h2>

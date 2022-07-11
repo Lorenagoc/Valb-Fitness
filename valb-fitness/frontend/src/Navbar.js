@@ -30,6 +30,7 @@ function Navbar() {
         <Link to="/menu"> Menu </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
+        <Link to="/Team"> Login </Link>
         <button onClick={toggleNavbar}>
         </button>
       </div>
