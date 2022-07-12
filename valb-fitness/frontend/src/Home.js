@@ -21,6 +21,7 @@ const Home = () => {
                 key={key}
                 image={menuItem.image}
                 name={menuItem.name}
+                price={menuItem.price}
                 />
              );
           })}

@@ -26,6 +26,7 @@
   .socialMedia a:hover{
     color: #ffa624;
     text-decoration: underline;
+    transition: 0.5s;
   }
   
   .footer p {
