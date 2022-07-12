@@ -5,10 +5,10 @@ import  Home from './Home';
 import Footer from './Footer';
 import  Team from './Team';
 import StaffTeam from './StaffTeam';
-// import  UserLogIn from './UserLogIn';
-// import  ManagerLogIn from './ManagerLogIn';
-// import  CoachLogIn from './CoachLogIn';
-// import  DoctorLogIn './DoctorLogIn';
+import  UserLogIn from './UserLogIn';
+import  ManagerLogIn from './ManagerLogIn';
+import  CoachLogIn from './CoachLogIn';
+import  DoctorLogIn from './DoctorLogIn';
 // import  UserSignUp from './UserSignUp';
 // import  ManagerSignUp from './ManagerSignUp';
 // import  CoachSignUp from './CoachSignUp';
@@ -35,16 +35,16 @@ function App() {
             <StaffTeam />
           </Route>
           <Route path="/UserLogIn">
-            <h2>Log in de Aluno</h2>
+            <UserLogIn />
           </Route>
           <Route path="/ManagerLogIn">
-            <h2>Log in da secretaria</h2>
+            <ManagerLogIn />
           </Route>
           <Route path="/CoachLogIn">
-            <h2>Log in do treinador</h2>
+            <CoachLogIn />
           </Route>
           <Route path="/DoctorLogIn">
-            <h2>Log in do médico</h2>
+            <DoctorLogIn />
           </Route>
           <Route path="/workout/:id">
             <h2>workout #id</h2>
