@@ -1,4 +1,4 @@
-.navbar {
+  .navbar {
     width: 100%;
     height: 100px;
     background-color: #363b3b;
@@ -25,11 +25,20 @@
     align-items: center;
     justify-content: center;
   }
-  
+
+  .navbar h1{
+    color: aliceblue;
+  }
+
   .navbar a {
-    color: white;
+    color: aliceblue;
     text-decoration: none;
     margin: 20px;
+  }
+  .navbar a:hover{
+    color: #ffa624;
+    text-decoration: underline;
+    transition: 0.5s;
   }
   
   .navbar .rightSide button {
