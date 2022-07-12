@@ -3,7 +3,7 @@ const UserLogIn = () => {
     return (
         <div className="userlogin">
             <LogIn />
-            <p>Ainda não tem conta? <a href="#">Cadastra-se</a></p>
+            <p>Ainda não tem conta? <a href="/UserSignUp">Cadastre-se</a></p>
         </div>
     );
 }

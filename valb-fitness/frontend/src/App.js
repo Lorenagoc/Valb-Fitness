@@ -9,10 +9,10 @@ import  UserLogIn from './UserLogIn';
 import  ManagerLogIn from './ManagerLogIn';
 import  CoachLogIn from './CoachLogIn';
 import  DoctorLogIn from './DoctorLogIn';
-// import  UserSignUp from './UserSignUp';
-// import  ManagerSignUp from './ManagerSignUp';
-// import  CoachSignUp from './CoachSignUp';
-// import  DoctorSignUp from './DoctorSignUp';
+import  UserSignUp from './UserSignUp';
+import  ManagerSignUp from './ManagerSignUp';
+import  CoachSignUp from './CoachSignUp';
+import  DoctorSignUp from './DoctorSignUp';
 // import  Workout from './Workout';
 
 
@@ -45,6 +45,18 @@ function App() {
           </Route>
           <Route path="/DoctorLogIn">
             <DoctorLogIn />
+          </Route>
+          <Route path="/UserSignUp">
+            <UserSignUp />
+          </Route>
+          <Route path="/ManagerSignUp">
+            <ManagerSignUp />
+          </Route>
+          <Route path="/CoachSignUp">
+            <CoachSignUp />
+          </Route>
+          <Route path="/DoctorSignUp">
+            <DoctorSignUp />
           </Route>
           <Route path="/workout/:id">
             <h2>workout #id</h2>

@@ -1,9 +1,9 @@
 import LogIn from './components/LogIn';
 const DoctorLogIn = () => {
     return (
-        <div className="userlogin">
+        <div className="doctorlogin">
             <LogIn />
-            <p>Ainda não tem conta? <a href="#">Cadastra-se</a></p>
+            <p>Ainda não tem conta? <a href="/DoctorSignUp">Cadastre-se</a></p>
         </div>
     );
 }
