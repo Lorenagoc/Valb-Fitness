@@ -8,12 +8,24 @@
     flex-direction: column;
     padding-top: 10px;
   }
-  
+  .socialMedia{
+    text-align: center;
+  }
   .socialMedia svg {
     color: white;
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
+  }
+
+  .socialMedia a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+  .socialMedia a:hover{
+    color: #ffa624;
+    text-decoration: underline;
   }
   
   .footer p {

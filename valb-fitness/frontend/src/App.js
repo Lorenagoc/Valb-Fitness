@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import  Navbar from './Navbar';
 import  Home from './Home';
-//import Footer from './Footer';
+import Footer from './Footer';
 import  Team from './Team';
 import StaffTeam from './StaffTeam';
 // import  UserLogIn from './UserLogIn';
@@ -24,8 +24,9 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/">
-            <Navbar/>
-            <Home/>
+            <Navbar />
+            <Home />
+            <Footer />
           </Route>
           <Route path="/Team">
             <Team />

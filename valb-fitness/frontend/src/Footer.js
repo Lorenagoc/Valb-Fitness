@@ -3,14 +3,16 @@ import "./styles/Footer.css";
 import InstagramIcon from "./assets/Instagram-Icon.png";
 import FacebookIcon from "./assets/facebook-icon.png";
 
-
 function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon /> <FacebookIcon />
+        <a href="#">Facebook</a><br />
+        <a href="#">Instagram</a><br />
+        <a href="#">Twitter</a>
       </div>
-      <p> &copy; 2021 pedrotechpizza.com</p>
+      <p>Valb Fitness&reg;</p>
+      <p>Avenida Goiás, 1305, Centro, 35.540-032</p>
     </div>
   );
 }
