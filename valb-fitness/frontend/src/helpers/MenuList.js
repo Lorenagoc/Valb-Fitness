@@ -7,27 +7,27 @@ import ritmos from "../assets/ritmos.jpg";
 export const MenuList = [
   {
     name: "Musculação",
-    price: "99,90",
+    price: "106,25",
     image: musculacao,
   },
   {
     name: "Natação",
-    price: "159,90",
+    price: "182,75",
     image: natacao,
   },
   {
     name: "Crossfit",
-    price: "99,90",
+    price: "130,00",
     image: crossfit,
   },
   {
     name: "Spinning",
-    price: "129,90",
+    price: "130,00",
     image: spinning,
   },
   {
     name: "Ritmos",
-    price: "89,90",
+    price: "130,00",
     image: ritmos,
   },
 
