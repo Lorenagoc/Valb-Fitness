@@ -1,6 +1,6 @@
-import manager from "../assets/staff.png";
-import coach from "../assets/staff.png";
-import doctor from "../assets/staff.png"
+import manager from "../assets/Manager.png";
+import coach from "../assets/Coach.png";
+import doctor from "../assets/Doctor.png"
 
 export const StaffTeamList = [
   {

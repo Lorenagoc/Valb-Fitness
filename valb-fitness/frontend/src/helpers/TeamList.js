@@ -1,5 +1,5 @@
-import user from "../assets/user.png";
-import staff from "../assets/staff.png";
+import user from "../assets/Users.png";
+import staff from "../assets/StaffTeam.png";
 
 export const TeamList = [
   {
