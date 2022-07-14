@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import "../styles/Login.css";
+
 const LogIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -22,26 +24,34 @@ const LogIn = () => {
         })
     }
     return (
-        <div className="userlogin">
-            <h2>Entrar</h2>
-            <form onSubmit={handleSubmit}>
-                <label>Email:</label>
-                <input 
-                    type="text"
-                    required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                />
-                <label>Senha:</label>
-                <input 
-                    type="text"
-                    required
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                />
-                {!isPending && <button>Entrar</button>}
-                {isPending && <button disabled>Entrando ...</button>}
-            </form>
+        <div id='login' > 
+            
+            <div className="userlogin">
+                <form onSubmit={handleSubmit}>
+                <div className='field' > 
+                        <label>Email:</label>
+                        <input 
+                            type="text"
+                            required
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
+                </div>
+                    <div className='field' > 
+                    <label>Senha:</label>
+                        <input 
+                            type="text"
+                            required
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                        />
+                    </div>
+                    <div className='actions'> 
+                        {!isPending && <button>Entrar</button>}
+                        {isPending && <button disabled>Entrando ...</button>}
+                    </div>
+                </form>
+            </div>
         </div>
     );
 }

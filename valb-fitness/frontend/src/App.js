@@ -31,34 +31,54 @@ function App() {
             <Footer />
           </Route>
           <Route path="/Team">
+            <Navbar />
             <Team />
+            <Footer />
           </Route>
           <Route path="/StaffTeam">
+            <Navbar />
             <StaffTeam />
+            <Footer />
           </Route>
           <Route path="/UserLogIn">
+            <Navbar />
             <UserLogIn />
+            <Footer />
           </Route>
           <Route path="/ManagerLogIn">
+            <Navbar />
             <ManagerLogIn />
+            <Footer />
           </Route>
           <Route path="/CoachLogIn">
+            <Navbar />
             <CoachLogIn />
+            <Footer />
           </Route>
           <Route path="/DoctorLogIn">
+            <Navbar />
             <DoctorLogIn />
+            <Footer />
           </Route>
           <Route path="/UserSignUp">
+            <Navbar />
             <UserSignUp />
+            <Footer />
           </Route>
           <Route path="/ManagerSignUp">
+            <Navbar />
             <ManagerSignUp />
+            <Footer />
           </Route>
           <Route path="/CoachSignUp">
+            <Navbar />
             <CoachSignUp />
+            <Footer />
           </Route>
           <Route path="/DoctorSignUp">
+            <Navbar />
             <DoctorSignUp />
+            <Footer />
           </Route>
           <Route path="/Planos">
             <Bodybuilding />
