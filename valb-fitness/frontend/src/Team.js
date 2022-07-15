@@ -15,6 +15,7 @@ const Team = () => {
                         name={item.name}
                         />
                     );  
+
                 })}
             </div>
         </div>

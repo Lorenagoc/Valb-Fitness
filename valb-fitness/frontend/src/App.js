@@ -13,7 +13,7 @@ import  UserSignUp from './UserSignUp';
 import  ManagerSignUp from './ManagerSignUp';
 import  CoachSignUp from './CoachSignUp';
 import  DoctorSignUp from './DoctorSignUp';
-import  Bodybuilding from './Planos';
+import  Planos from './Planos';
 
 // import  Workout from './Workout';
 
@@ -81,7 +81,9 @@ function App() {
             <Footer />
           </Route>
           <Route path="/Planos">
-            <Bodybuilding />
+            <Navbar />
+            <Planos />
+            <Footer />
           </Route>
           <Route path="/workout/:id">
             <h2>workout #id</h2>

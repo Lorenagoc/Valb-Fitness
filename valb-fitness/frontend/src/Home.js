@@ -2,7 +2,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import BannerImage from "./assets/academiahome.jpg";
 import "./styles/Home.css";
 import  MenuItem from "./components/MenuItem.js";
 import { MenuList } from "./helpers/MenuList.js";

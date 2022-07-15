@@ -6,6 +6,7 @@ function Item({ image, name }) {
       <div className="item">
         <Link to={"/"+name}>
           <div style={{ backgroundImage: `url(${image})` }}></div>
+          <h2> {name} </h2>
         </Link>
       </div>
     
