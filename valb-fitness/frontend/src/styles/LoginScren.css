@@ -1,3 +1,6 @@
+#log{
+    height: 100%;
+}
 #log .newAccount{
     display: flex;
     flex-direction: column;

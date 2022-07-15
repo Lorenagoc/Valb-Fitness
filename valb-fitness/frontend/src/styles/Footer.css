@@ -7,6 +7,9 @@
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
   .socialMedia{
     text-align: center;
