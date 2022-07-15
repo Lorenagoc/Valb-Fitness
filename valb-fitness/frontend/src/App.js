@@ -13,10 +13,7 @@ import  UserSignUp from './UserSignUp';
 import  ManagerSignUp from './ManagerSignUp';
 import  CoachSignUp from './CoachSignUp';
 import  DoctorSignUp from './DoctorSignUp';
-import  Planos from './Planos';
-
-// import  Workout from './Workout';
-
+import  Musculação from './Musculação';
 
 //components imports
 
@@ -80,14 +77,10 @@ function App() {
             <DoctorSignUp />
             <Footer />
           </Route>
-          <Route path="/Planos">
+          <Route path="/Musculação">
             <Navbar />
-            <Planos />
+            <Musculação/>
             <Footer />
-          </Route>
-          <Route path="/workout/:id">
-            <h2>workout #id</h2>
-            {/* <WorkoutDetails /> */}
           </Route>
           <Route path='*'>
             <h2>404 not found</h2>

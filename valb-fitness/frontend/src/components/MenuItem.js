@@ -1,5 +1,6 @@
 import React from "react";
 import useFetch from "../hooks/useFetch";
+import { Link } from "react-router-dom";
 
 function MenuItem({ image, name, price }) {
   const {data: planos, isPending, error } = useFetch('http://localhost:3001/Planos');
@@ -10,9 +11,11 @@ function MenuItem({ image, name, price }) {
   }
   return (
     <div className="menuItem" onMouseEnter={handleHover}>
-      <div style={{ backgroundImage: `url(${image})` }}> </div>
-      <h1> {name} </h1>
-      <p> A partir de R${price}</p>
+      <Link to={"/"+name}>
+        <div style={{ backgroundImage: `url(${image})` }}> </div>
+        <h1> {name} </h1>
+        <p> A partir de R${price}</p>
+      </Link>  
     </div>
   );
 }
