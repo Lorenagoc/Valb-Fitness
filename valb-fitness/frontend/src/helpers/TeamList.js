@@ -3,11 +3,13 @@ import staff from "../assets/StaffTeam.png";
 
 export const TeamList = [
   {
-    name: "UserLogin",
+    name: "Cliente",
+    enName: "UserLogin",
     image: user,
   },
   {
-    name: "StaffTeam",
+    name: "Parceiros",
+    enName: "StaffTeam",
     image: staff,
   },
 ];

@@ -4,15 +4,18 @@ import doctor from "../assets/Doctor.png"
 
 export const StaffTeamList = [
   {
-    name: "ManagerLogIn",
+    name: "Secretaria",
+    enName: "ManagerLogIn",
     image: manager,
   },
   {
-    name: "CoachLogIn",
+    name: "Treinador",
+    enName: "CoachLogIn",
     image: coach,
   },
   {
-    name: "DoctorLogIn",
+    name: "Médico",
+    enName: "DoctorLogIn",
     image: doctor,
   },
 ];

@@ -13,6 +13,7 @@ const Team = () => {
                         key={key}
                         image={item.image}
                         name={item.name}
+                        enName={item.enName}
                         />
                     );  
 
