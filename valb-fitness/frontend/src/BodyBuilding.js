@@ -1,18 +1,25 @@
 import useFetch from "./hooks/useFetch.js"
-import Plans from "./components/Plans"
+import { BodyBuildingList } from "./helpers/BodyBuildingList.js";
+import Iterator from "./components/Iterator.js";
 const BODYBUILDING = 1
 
 const BodyBuilding = () => {
     const {data: plans, isPending, error } = useFetch('http://localhost:3001/Planos');
-    const handleClick = (e) => {
-        e.preventDefault();
-        console.log(plans[BODYBUILDING])
-    }
     return (
         
         <div className="body_building">
             <h1>BodyBuilding</h1>
-            <button onClick={handleClick}>Botao</button>  
+            {BodyBuildingList.map((item, key) => {
+                return (
+                    <Iterator
+                    key={key}
+                    mensal={item.mensal}
+                    semestral={item.semestral}
+                    anual={item.anual}
+                    />
+                );  
+
+            })}
         </div>
     );
 }
