@@ -118,19 +118,19 @@
 				{
 					"mensal": {
 						"parcelas": 0,
-						"frequencia": [{ "2x": 215 }, { "3x": 229 }]
+						"frequencia": [{ "duas_vezes": 215 }, { "tres_vezes": 229 }]
 					}
 				},
 				{
 					"semestral": {
 						"parcelas": 6,
-						"frequencia": [{ "2x": 215 }, { "3x": 229 }]
+						"frequencia": [{ "duas_vezes": 215 }, { "tres_vezes": 229 }]
 					}
 				},
 				{
 					"anual": {
 						"parcelas": 12,
-						"frequencia": [{ "2x": 182.75 }, { "3x": 189 }]
+						"frequencia": [{ "duas_vezes": 182.75 }, { "tres_vezes": 189 }]
 					}
 				}
 			]
@@ -140,19 +140,19 @@
 				{
 					"mensal": {
 						"parcelas": 0,
-						"frequencia": { "7x": 125 }
+						"frequencia": { "sete_vezes": 125 }
 					}
 				},
 				{
 					"semestral": {
 						"parcelas": 6,
-						"frequencia": { "7x": 112.5 }
+						"frequencia": { "sete_vezes": 112.5 }
 					}
 				},
 				{
 					"anual": {
 						"parcelas": 12,
-						"frequencia": { "7x": 106.25 }
+						"frequencia": { "sete_vezes": 106.25 }
 					}
 				}
 			]
@@ -162,19 +162,19 @@
 				{
 					"mensal": {
 						"parcelas": 0,
-						"frequencia": { "3x": 155 }
+						"frequencia": { "tres_vezes": 155 }
 					}
 				},
 				{
 					"semestral": {
 						"parcelas": 6,
-						"frequencia": { "3x": 139 }
+						"frequencia": { "tres_vezes": 139 }
 					}
 				},
 				{
 					"anual": {
 						"parcelas": 12,
-						"frequencia": { "3x": 130 }
+						"frequencia": { "tres_vezes": 130 }
 					}
 				}
 			]
