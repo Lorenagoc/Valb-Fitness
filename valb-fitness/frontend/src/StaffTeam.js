@@ -13,6 +13,7 @@ const StaffTeam = () => {
                         key={key}
                         image={item.image}
                         name={item.name}
+                        enName={item.enName}
                         />
                     );  
                 })}

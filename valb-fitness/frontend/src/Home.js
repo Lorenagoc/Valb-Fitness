@@ -20,6 +20,7 @@ const Home = () => {
                 key={key}
                 image={menuItem.image}
                 name={menuItem.name}
+                enName={menuItem.enName}
                 price={menuItem.price}
                 />
              );
