@@ -1,0 +1,29 @@
+.userlogin {
+  display: flex;    
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  margin: 7rem;
+  background-color: #f1f1f1;
+  max-width: 480px;
+  padding: 0.5rem;
+  border-radius: 5%;
+}
+
+.userlogin label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.userlogin input {
+  width: 98%;
+}
+
+.userlogin button {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
