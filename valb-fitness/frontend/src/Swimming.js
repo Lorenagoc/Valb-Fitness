@@ -1,7 +1,7 @@
 import useFetch from "./hooks/useFetch.js"
 import { SwimmingList } from "./helpers/SwimmingList.js";
 import Iterator from "./components/Iterator.js";
-const SWIMMING = 1
+
 
 const Swimming = () => {
     const {data: plans, isPending, error } = useFetch('http://localhost:3001/Planos');

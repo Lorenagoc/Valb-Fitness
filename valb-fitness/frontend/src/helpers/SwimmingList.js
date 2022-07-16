@@ -1,4 +1,4 @@
-export const Swimming = [
+export const SwimmingList = [
     {
         mensal: [{
             duas: 215,

@@ -14,6 +14,11 @@ import  ManagerSignUp from './ManagerSignUp';
 import  CoachSignUp from './CoachSignUp';
 import  DoctorSignUp from './DoctorSignUp';
 import  BodyBuilding from './BodyBuilding';
+import  Rhythm from './Rhythm';
+import  Spinning from './Spinning';
+import  Crossfit from './Crossfit';
+import  Swimming from './Swimming';
+
 
 //components imports
 
@@ -84,22 +89,22 @@ function App() {
           </Route>
           <Route path="/Swimming">
             <Navbar />
-            <h2>Swi</h2>
+            <Swimming/>
             <Footer />
           </Route>
           <Route path="/Crossfit">
             <Navbar />
-            <h2>cross</h2>
+            <Crossfit/>
             <Footer />
           </Route>
           <Route path="/Spinning">
             <Navbar />
-            <h2>spin</h2>
+            <Spinning/>
             <Footer />
           </Route>
           <Route path="/Rhythm">
             <Navbar />
-            <h2>R</h2>
+            <Rhythm/>
             <Footer />
           </Route>
           <Route path='*'>
