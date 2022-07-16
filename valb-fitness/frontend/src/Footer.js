@@ -1,7 +1,5 @@
 import React from "react";
 import "./styles/Footer.css";
-import InstagramIcon from "./assets/Instagram-Icon.png";
-import FacebookIcon from "./assets/facebook-icon.png";
 
 function Footer() {
   return (

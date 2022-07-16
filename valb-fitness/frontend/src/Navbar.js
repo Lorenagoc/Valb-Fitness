@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Logo from './assets/logo.png';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './styles/Navbar.css';
 
 function Navbar({ login }) {
