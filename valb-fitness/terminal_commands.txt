@@ -1,0 +1,13 @@
+!!!run all commands inside valb-fitness folder!!!
+
+To start react frontend server on localhost::3000 inside frontend folder
+	$npm start
+
+To start react backend server on localhost::3001 inside backend folder
+	$npm start
+
+To install all node_modules inside frontend folder
+	$npm install
+
+To install all node_modules inside backend folder
+	$npm install
